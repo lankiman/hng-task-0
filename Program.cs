@@ -30,8 +30,6 @@ app.MapGet("/", () =>
         email = "marvellousboun@gmail.com",
         currentDatetime = isoDateTime,
         githubUrl="<https://github.com/lankiman/hng-task-0>"
-        
-
     });
 });
 
