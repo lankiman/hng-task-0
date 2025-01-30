@@ -6,7 +6,7 @@ Welcome to the Stage 0 Backend task for HNG12! This project provides a public AP
 
 This is a simple API developed in C# that serves the following details when accessed:
 
-- Your registered email address.
+- The Email address used in registring for the hng-12 slack workspace.
 - The current datetime in UTC in ISO 8601 format (`yyyy-MM-ddTHH:mm:ssZ`).
 - The GitHub URL for the project repository.
 
@@ -36,7 +36,7 @@ This is a simple API developed in C# that serves the following details when acce
          This will run the API on your local machine. By default, it will be accessible at `http://localhost:5000`.
       
       4. Test the API by sending a GET request to the following endpoint:
-         `http://localhost:5000`
+         `http://localhost:5800`
 ```
 You should receive a JSON response with the following data:
 ```json
@@ -79,7 +79,8 @@ This repository contains the code for the Stage 0 Backend task of the HNG12 prog
 ### Technologies Used
 
 - **C#**: The programming language used to build the API.
-- **.NET 9.0**: The framework used for building the web application.
+- **.NET 9.0**: The runtime used for building the application.
+- **ASP.NET: The .NET webframework usind in building the application
 - **JSON**: The response format for the API.
 
 ## Deployment
