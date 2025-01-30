@@ -24,12 +24,12 @@ app.UseCors(options => {
 
 app.MapGet("/", () =>
 {
-    string isoDateTime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss")+"Z";
+    string isoDateTime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
     return Results.Json(new
     {
         email = "marvellousboun@gmail.com",
         currentDatetime = isoDateTime,
-        githubUrl="https://github.com/lankiman/hng-task-0"
+        githubUrl="<https://github.com/lankiman/hng-task-0>"
     });
 });
 
