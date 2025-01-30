@@ -27,7 +27,7 @@ app.MapGet("/", () =>
     string isoDateTime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
     return Results.Json(new
     {
-        email = "marvellousboun@gmail.com",
+        email = "marvellousgboun@gmail.com",
         currentDatetime = isoDateTime,
         githubUrl="https://github.com/lankiman/hng-task-0"
     });
