@@ -51,11 +51,13 @@ You should receive a JSON response with the following data:
 ### Endpoint: `GET /`
 
 This endpoint returns the following data:
+```json
 {
   "email": "user@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/user/project" ### Example Usage
 }
+```
 To get the response, simply send a GET request to the root endpoint (`/`).
 [https://hng-task-0-production-8c99.up.railway.app](https://hng-task-0-production-8c99.up.railway.app)
 
