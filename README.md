@@ -55,7 +55,7 @@ This endpoint returns the following data:
 {
   "email": "user@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/user/project" ### Example Usage
+  "github_url": "https://github.com/user/project"
 }
 ```
 To get the response, simply send a GET request to the root endpoint (`/`).
