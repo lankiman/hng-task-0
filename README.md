@@ -93,7 +93,5 @@ You can access the live version of the API by visiting the provided URL.
 
 The API is configured to have a fast response time (less than 500ms), and it is CORS-compliant for cross-origin requests.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
