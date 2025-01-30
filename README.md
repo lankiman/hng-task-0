@@ -23,29 +23,29 @@ This is a simple API developed in C# that serves the following details when acce
 
 ### Running Locally
 ```bash
-1. Clone the repository to your local machine:
-   `git clone https://github.com/yourusername/hng-task-0.git`
-   `cd hng-task-0`
-
-2. Restore project dependencies:
-   `dotnet restore`
-
-3. Run the application locally:
-   `dotnet run`
-
-   This will run the API on your local machine. By default, it will be accessible at `http://localhost:5000`.
-
-4. Test the API by sending a GET request to the following endpoint:
-   `http://localhost:5000`
-
-   You should receive a JSON response with the following data:
-   ```json
+      1. Clone the repository to your local machine:
+         `git clone https://github.com/yourusername/hng-task-0.git`
+         `cd hng-task-0`
+      
+      2. Restore project dependencies:
+         `dotnet restore`
+      
+      3. Run the application locally:
+         `dotnet run`
+      
+         This will run the API on your local machine. By default, it will be accessible at `http://localhost:5000`.
+      
+      4. Test the API by sending a GET request to the following endpoint:
+         `http://localhost:5000`
+```
+You should receive a JSON response with the following data:
+```json
       {
         "email": "user@example.com",
         "current_datetime": "2025-01-30T09:30:00Z",
         "github_url": "https://github.com/user/project"
      }
-
+```
 ## API Documentation
 
 ### Endpoint: `GET /`
