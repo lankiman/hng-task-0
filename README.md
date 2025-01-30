@@ -85,7 +85,7 @@ This repository contains the code for the Stage 0 Backend task of the HNG12 prog
 
 ## Deployment
 
-This API is deployed to Railway and is accessible at the following publicly available endpoint:
+This API is deployed to Railway using a docker image and is accessible at the following publicly available endpoint:
 
 [https://hng-task-0-production-8c99.up.railway.app](https://hng-task-0-production-8c99.up.railway.app)
 
