@@ -22,7 +22,7 @@ This is a simple API developed in C# that serves the following details when acce
 - A code editor such as [Visual Studio Code](https://code.visualstudio.com/) is recommended.
 
 ### Running Locally
-
+```bash
 1. Clone the repository to your local machine:
    `git clone https://github.com/yourusername/hng-task-0.git`
    `cd hng-task-0`
@@ -40,11 +40,11 @@ This is a simple API developed in C# that serves the following details when acce
 
    You should receive a JSON response with the following data:
    ```json
-{
-  "email": "user@example.com",
-  "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/user/project"
-}
+      {
+        "email": "user@example.com",
+        "current_datetime": "2025-01-30T09:30:00Z",
+        "github_url": "https://github.com/user/project"
+     }
 
 ## API Documentation
 
